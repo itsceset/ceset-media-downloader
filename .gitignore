@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Xcode user data and build output
+DerivedData/
+build/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+xcuserdata/
+*.moved-aside
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Local releases and archives
+dist/
+*.app
+*.dmg
+*.xcarchive
+
+# Authentication/session material — never commit
+cookies.txt
+cookies.sqlite
+*.cookies
+*.cookie
+*.bookmark
+*.pem
+*.p12
+*.mobileprovision
+
+# Downloaded third-party executables (installed by scripts/bootstrap-tools.sh)
+CesetMediaDownloader/Resources/Tools/YTDLP.bundle/
+CesetMediaDownloader/Resources/Tools/ffmpeg
+CesetMediaDownloader/Resources/Tools/ffprobe
